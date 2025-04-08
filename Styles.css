@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* light grey background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #35424a; /* dark color for header */
+    color: #ffffff; /* white text */
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px; /* limit width of the main content */
+    margin: auto; /* center align the main content */
+}
+
+.story {
+    background: #ffffff; /* white background for story sections */
+    padding: 15px;
+    margin: 15px 0; /* margin between stories */
+    border-radius: 5px; /* rounded corners for story boxes */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* subtle shadow effect */
+}
+
+h2 {
+    color: #35424a; /* dark text color for story titles */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a; /* dark color for footer */
+    color: #ffffff; /* white footer text */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
